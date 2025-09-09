@@ -12,7 +12,7 @@ import (
 	port		= 5432
 	user		= "postgres"
 	password 	= "1234"
-	dbname  	= "postgres"
+	dbname  	= "products_api"
  )
 
  func ConnectDB () (*sql.DB, error) {
